@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Reglo-Bold;
+    font-family: 'Reglo-Bold';
     src: url('../fonts/Reglo-Bold.otf');
   }
 .primary-color{
@@ -75,13 +75,17 @@ body {
 
 .numbering{
     border-radius: 20px 0px 0px 20px;
-background: #c6ad5c;
+    background: linear-gradient(180deg, #DAC47B 0%, #9E7E1F 100%), #CC1A6B;
 padding: 5px 20px;
 text-align: right;
 top: 8px;
+font-size: 10px;
+line-height: 12px;
 color: white;
 font-weight: bold;
 font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
 }
 
 .card{
@@ -192,7 +196,7 @@ footer{
 }
 .top-heading{
     color: #cc2d80;
-    font-family: 'Relgo-Bold';
+    font-family: 'Reglo-Bold';
     font-style: normal;
     font-size: 30px;
     line-height: 30px;
@@ -232,6 +236,15 @@ color: #CC1762;
 
 
 }
+
+.paragraph{
+    font-size: 13px;
+            line-height: 16px;
+            font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+color: #656161;
+}
 .num{
     
 
@@ -247,10 +260,24 @@ color: #656161;
 }
 .ratings{
  color: #656161;
+ font-size: 8px;
+line-height: 10px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
 }
 .btn{
     color:#ffffff ;
-    background-color:#b0933a ;
+    background: linear-gradient(180deg, #D2BB6F 0%, #AC8E34 100%);
+    border: 0px;
+    border-radius: 8px;
+    font-family: 'Reglo-Bold';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 20px;
+padding-top: 0px;
+height: 45px;
 }
 
 .purpose{
